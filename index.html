@@ -24,28 +24,39 @@
           <input class=" form-control" type="number" name = "number" id="number"min="0" max='100' step="1" placeholder="Num" required>
         </div>
         
-        <div>
-          <select name="" id="dropdown"> Choose :
+        <div class="divdrop">
+          <label for="dropdown">Select your option</label>
+
+          
+          <select name="dropdown" id="dropdown" aria-labelledby="dropdownMenuButton">
+            <option id="dropdown" value=""></option>
             <option id="dropdown" value="">Option</option>
             <option id="dropdown" value="">Option</option>
           </select>
         </div>
         
-        <div>
-          <input name="radio" type="radio" value="radio">Mo</option>
-          <input name="radio" type="radio" value="radio">Pete</option>
+        <div class="radios">
+          <input name="radio" type="radio" value="radio"> Mo</option>
+          <p></p>
+          <input name="radio" type="radio" value="radio"> Pete</option>
         </div>
         
-        <div>
-          <input type="checkbox" value="like" >
-          <input type="checkbox" value="dislike" >
+      <div class="input-group-text">
+          <div>
+          <label for="check1">First choice</label>
+          <input name='check1' type="checkbox" value="like"  >
         </div>
+          <div>
+          <label for="check2">Second choice</label>
+          <input name='check2' type="checkbox" value="dislike" >
+        </div>
+      </div>
 
         <div>
           <textarea class=" form-control" name="text" placeholder="write your comments here..." id="" cols="30" rows="10"></textarea>
         </div> 
 
-        <button type="submit" id="submit">Submit</button>
+        <button class="btn btn-success btn-block" type="submit" id="submit">Submit</button>
     </form>
 
   </div>

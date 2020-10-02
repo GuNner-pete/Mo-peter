@@ -29,3 +29,23 @@ h1{
 form{
     width: 100%;
 }
+.input-group-text{
+    display: flex;
+    flex-flow: column;
+    padding: 0%;
+    margin: 0%;
+}
+.input-group-text div{
+padding: 5px;
+}
+.radios{
+    align-items: center;
+}
+.divdrop{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#dropdown{
+
+}
