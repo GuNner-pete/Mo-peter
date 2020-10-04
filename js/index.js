@@ -26,3 +26,14 @@ INSTRUCTIONS:
 
 // Once you have read the above messages, you can delete all comments. 
 "use strict";
+function findDigits(n) {
+  var newArr= '5002' .split('');
+  var t= 0;
+    for(var i = 0 ; i<newArr.length;i++){
+       if (n%newArr[i] === 0){
+         t++
+        }
+        return t
+    }
+  }
+  console.log('520'.split(''))
